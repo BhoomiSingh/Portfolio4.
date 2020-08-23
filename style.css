@@ -1,0 +1,67 @@
+h1{
+    color: black;
+    margin-left : 30px;
+}   
+h2{
+    text-align: center;
+    color: black;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+/* *{
+    border: solid;
+} */
+ .header{
+    background-color:#FFFFC3;
+    display: flex;
+    justify-content: space-between;
+ }
+ .siteDiscription{
+     background-color: #FED2A5;
+ }
+ .footer{
+     background-color:#8A79AF;
+     display: flex;
+     justify-content: flex-end;
+ }
+.grid{
+    display: flex;
+    background-color: #D38CAE;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item {
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+body{
+    background-color: #FED2A5;
+}
+ .menu{
+    padding-top: 20px;
+}
+ a:link{
+     color:maroon;
+ }
+ a:visited{
+     color:peru;
+ }
+ .dis{
+     display: flex;
+     justify-content: space-between;
+ }
